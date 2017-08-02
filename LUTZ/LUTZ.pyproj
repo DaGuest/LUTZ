@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2d817b39-a0fe-485d-9a8b-e9a42d2280e3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>LUTZ.py</StartupFile>
+    <StartupFile>controller.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="LUTZ.py" />
+    <Compile Include="controller.py" />
+    <Compile Include="iocontroller.py" />
+    <Compile Include="midi.py" />
+    <Compile Include="patbank.py" />
+    <Compile Include="seq.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
